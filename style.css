@@ -1,0 +1,62 @@
+body {
+	background-color: grey;
+	font-family: Arial;
+	text-align: center;
+	padding: 5px;
+
+}
+
+img {
+	max-width: 50%;
+    border-radius: 50px;
+    opacity: 0.7;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+.container {
+	width: 90%;
+	border-radius: 10px;
+	background-color: lightgray;
+	margin: 10px auto;
+	padding: 10px;
+    box-shadow: 10px 10px;
+}
+
+
+.top:hover, .middle:hover, .bottom:hover, .footer:hover {
+    background-color: lightgoldenrodyellow;
+    border-radius: 50px;
+}
+
+@media (max-width: 840px) {
+    .container {
+      width: 98%;
+    }
+  }
+
+ul {
+    text-align: left;
+}
+
+h1 {
+    color:darkgreen;
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing:20px;
+}
+
+a {
+    color:green;
+    text-decoration:darkgreen;
+    
+}
+
+a:hover {
+    color:blue;
+    text-decoration:green;
+    font-size: larger;
+    transition: color 5.3s ease;
+}
